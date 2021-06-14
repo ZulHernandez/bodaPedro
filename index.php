@@ -141,6 +141,10 @@
         <div class="space"></div>
     </div>
     <div class="space"></div>
+
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/sendForm.js"></script>
+
 </body>
 
 </html>

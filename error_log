@@ -1,0 +1,1 @@
+[14-Jun-2021 09:05:35 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'mail' (T_STRING) in /home4/feryomar/public_html/sendMail.php on line 8
