@@ -1,0 +1,289 @@
+/*SCROLL BAR----------------------------------------------------------------------------------------------------------*/
+::-webkit-scrollbar {
+	width: 10px;
+	background-color: transparent;
+}
+
+::-webkit-scrollbar-track {
+	background-color: transparent;
+	/*color: #999999*/
+}
+
+::-webkit-scrollbar-thumb {
+	background: #77868f80;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #77868f;
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+	background: transparent;
+}
+
+/*FONTS----------------------------------------------------------------------------------------------------------*/
+::-moz-selection {
+	/* Code for Firefox */
+	color: white;
+	background: #f2e5dd;
+}
+
+::selection {
+	color: white;
+	background: #f2e5dd;
+}
+
+@font-face {
+	font-family: "CenturyGhotic";
+	src: url(../../src/fonts/GOTHIC.TTF);
+}
+
+/*ELEMENTS------------------------------------------------------------------------------------------------------*/
+body {
+	font-family: CenturyGhotic;
+	color: #77868f;
+	background-image: url(../../src/imgs/fabriano.png),
+		url(../../src/imgs/fondo.svg);
+}
+
+.head-line {
+	width: 75%;
+	border-style: solid;
+	border-color: #77868f;
+	border-width: 3px;
+	opacity: 1;
+}
+
+li {
+	padding-top: 10px;
+	font-size: 1vw;
+}
+
+input,
+textarea {
+	resize: none;
+	width: 100%;
+	padding: 15px;
+	border-style: solid;
+	border-color: #cccacb;
+	border-width: 3px;
+	border-radius: 15px;
+	color: #cccacb;
+	font-size: 0.9vw;
+	background-color: transparent;
+}
+
+input:focus-visible,
+input:valid,
+textarea:focus-visible,
+textarea:valid {
+	outline: 0px;
+	border-color: #77868f;
+	color: #77868f;
+	background-color: #fffefc;
+}
+
+input::placeholder,
+textarea::placeholder {
+	color: #cccacb;
+}
+
+#name {
+	height: 3.25vw;
+}
+
+#mensaje {
+	height: 12.5vw;
+}
+
+.btn,
+.btn:valid {
+	width: 100%;
+	padding: 15px;
+	border-style: solid;
+	border-color: #cccacb;
+	border-width: 3px;
+	border-radius: 15px;
+	color: #cccacb;
+	font-size: 0.9vw;
+	background-color: transparent;
+}
+
+.btn:hover,
+.btn:active {
+	outline: 0px;
+	border-color: #77868f;
+	color: #77868f;
+	background-color: #fffefc;
+}
+
+a {
+	text-decoration: none;
+	color: #77868f;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #77868f;
+	font-weight: bold;
+}
+/*DIVS----------------------------------------------------------------------------------------------------------*/
+.space {
+	height: 5vw;
+}
+
+.minspace {
+	height: 2.5vw;
+}
+
+.div-portada {
+	border-color: #cccacb;
+	border-style: solid;
+	background-color: #fffefc;
+	filter: drop-shadow(0px 10px 7px #cccacbbf);
+}
+
+.place-card {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: 80vh;
+}
+
+.swal2-content {
+	padding: 0px;
+}
+
+.swal2-actions {
+	display: none;
+}
+
+/*IMAGES---------------------------------------------------------------------------------------------------------*/
+.img-portada {
+	position: absolute;
+	width: 39.1vw;
+	transition: ease-out 0.5s;
+}
+
+.img-1:hover {
+	opacity: 0;
+}
+
+.grid-img-3,
+.grid-img-2 {
+	background-repeat: repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: initial;
+	height: 25vw;
+}
+
+.grid-img-3 {
+	height: 25vw;
+}
+
+.grid-img-2 {
+	height: 16vw;
+}
+
+.grid-img-2,
+.grid-img-3 {
+	border-style: solid;
+	border-width: 5px;
+	border-color: white;
+	background-position: left;
+	background-blend-mode: luminosity;
+	background-color: #f2e5dd;
+	transition: all 1s;
+}
+
+.grid-img-2:hover,
+.grid-img-3:hover {
+	cursor: pointer;
+	background-blend-mode: normal;
+}
+
+/*TEXT-----------------------------------------------------------------------------------------------------------*/
+
+h1 {
+	text-align: center;
+	font-size: 3vw;
+}
+
+h2 {
+	text-align: center;
+	font-size: 2vw;
+	font-weight: 500;
+}
+
+.text-para {
+	font-size: 1vw;
+	line-height: 1.5vw;
+	text-align: justify;
+	text-align-last: center;
+}
+
+.subtitle {
+	text-decoration: underline;
+}
+
+.text-cita {
+	font-size: 1.25vw;
+}
+
+.hidde {
+	display: none;
+}
+
+.hidde-back {
+	display: block;
+}
+
+@media only screen and (max-width: 1000px) {
+	h1 {
+		font-size: 5vw;
+	}
+
+	h2 {
+		font-size: 4vw;
+	}
+
+	li {
+		padding-top: 10px;
+		font-size: 2.5vw;
+	}
+
+	.text-para {
+		font-size: 1.8vw;
+		line-height: 2.7vw;
+	}
+
+	.img-portada {
+		position: absolute;
+		width: 74.5vw;
+		transition: ease-out 0.5s;
+	}
+
+	.hidde {
+		display: block;
+	}
+
+	.hidde-back {
+		display: none;
+	}
+
+	input,
+	textarea,
+	.btn,
+	.btn:valid {
+		font-size: 1.7vw;
+	}
+
+	#mensaje {
+		height: 27vw;
+	}
+
+	.text-cita {
+		font-size: 2.5vw;
+	}
+}
