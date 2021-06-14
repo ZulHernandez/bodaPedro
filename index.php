@@ -59,7 +59,7 @@
             </div>
         </div>
         <div class="space" id="deseos"></div>
-        <h2 class="subtitle">Dejanos tus deseos</h2>
+        <h2 class="subtitle">Déjanos tus deseos</h2>
         <div class="minspace"></div>
         <center>
             <div style="width: 80%;">
@@ -69,7 +69,7 @@
                 <div class="minspace"></div>
                 <div class="form-floating row">
                     <div class="col-lg-7">
-                        <textarea id="mensaje" placeholder="Dejanos tu mensaje <3" maxlength="450" required></textarea>
+                        <textarea id="mensaje" placeholder="Déjanos tu mensaje <3" maxlength="450" required></textarea>
                     </div>
                     <div class="col-lg-5">
                         <div class="hidde-back space"></div>
@@ -131,7 +131,7 @@
         <div class="space"></div>
         <div class="space" id="boda"></div>
         <h2 class="subtitle" style="font-size: 10vw; text-decoration: none;">¡La boda!</h2>
-        <h2 class="subtitle" style="font-size: 9vw;">Proximamente</h2>
+        <h2 class="subtitle" style="font-size: 9vw;">Próximamente</h2>
         <div class="minspace"></div>
         <center>
             <div class="minspace"></div>
