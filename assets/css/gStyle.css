@@ -158,6 +158,10 @@ a:hover {
 	display: none;
 }
 
+.swal-height {
+	height: 0vw;
+}
+
 /*IMAGES---------------------------------------------------------------------------------------------------------*/
 .img-portada {
 	position: absolute;

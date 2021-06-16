@@ -120,7 +120,9 @@
         </div>
         <template id="my-template">
             <swal-html>
-                <div class="place-card" id="c-img"></div>
+                <div class="place-card" id="c-img">
+                    <img class="img-fluid" id="photo" style="height: 40vw;">
+                </div>
             </swal-html>
         </template>
         <div class="minspace"></div>
